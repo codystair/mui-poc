@@ -21,6 +21,11 @@ export const theme = createMuiTheme({
           backgroundColor: "$labelcolor"
         }
       }
+    },
+    MuiDrawer: {
+      paper: {
+        backgroundColor: '#ffba60',
+      }
     }
   },
 })
