@@ -3,7 +3,7 @@ import { createMuiTheme } from '@material-ui/core'
 export const theme = createMuiTheme({
   palette: {
     primary: {
-      main: '#0b72b9',
+      main: '#ffba60',
     },
     secondary: {
       main: '#ffba60',
@@ -13,5 +13,14 @@ export const theme = createMuiTheme({
     h3: {
       fontWeight: 300,
     },
+  },
+  overrides: {
+    MuiIconButton: {
+      root: {
+        '&:hover': {
+          backgroundColor: "$labelcolor"
+        }
+      }
+    }
   },
 })
